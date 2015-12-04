@@ -1,10 +1,10 @@
 module BayesTests
 
 using Distributions, Gadfly,
-      KernelDensity, Cubature
+      KernelDensity, Cubature, Mamba
 
 export BinomTest, CorrelationTest, TTest,
-       plot, update, interval, posterior
+       plot, update, posterior, ppv, hpd
 
 include("common.jl")
 include("TTest.jl")

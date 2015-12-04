@@ -1,2 +1,1 @@
 abstract BayesTest
-abstract PosteriorSamples
